@@ -13,7 +13,7 @@ A Telegram bot that **summarizes YouTube videos** and lets you ask questions abo
 ![Bot Q&A screenshot](./docs/demo_qa.png)
 
 ### Full walkthrough (video)
-![Bot demo video](./docs/demo_walkthrough.mp4)
+![Bot demo video](https://drive.google.com/file/d/1EWFCpAJ3iMVhsbudHpXRdwG54_vFO5o9/view?usp=sharing)
 
 ---
 
