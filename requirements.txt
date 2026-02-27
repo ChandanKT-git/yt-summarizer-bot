@@ -1,0 +1,18 @@
+# ── Telegram bot framework (latest stable)
+python-telegram-bot==22.6
+
+# ── AI providers (at least one key required)
+google-genai==1.65.0     # Google Gemini (v1 API)
+groq==0.13.0             # Groq (llama-3.3-70b, free tier)
+
+# ── YouTube transcript fetching (v1.x with instance-based API)
+youtube-transcript-api==1.2.4
+
+# ── Config and utilities
+python-dotenv==1.2.1
+cachetools==7.0.1
+aiohttp==3.13.3
+
+# ── Testing
+pytest==9.0.2
+pytest-asyncio==1.3.0

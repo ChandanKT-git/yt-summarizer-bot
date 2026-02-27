@@ -1,0 +1,34 @@
+{
+  "name": "youtube-summarizer",
+  "version": "1.0.0",
+  "description": "Summarize YouTube videos and answer questions about them in multiple languages",
+  "author": "yt-summarizer-bot",
+  "triggers": [
+    "youtube.com/watch",
+    "youtu.be",
+    "youtube.com/shorts"
+  ],
+  "type": "webhook",
+  "endpoint": "http://localhost:8080/openclaw/skill",
+  "capabilities": [
+    "summarize",
+    "qa",
+    "multilingual"
+  ],
+  "supportedLanguages": [
+    "English",
+    "Hindi",
+    "Tamil",
+    "Kannada",
+    "Telugu",
+    "Marathi"
+  ],
+  "commands": [
+    { "name": "summary",      "description": "Get a structured summary of the current video" },
+    { "name": "deepdive",     "description": "Get an in-depth analysis of the current video" },
+    { "name": "actionpoints", "description": "Extract action items from the current video" },
+    { "name": "language",     "description": "Switch response language, e.g. /language Hindi" }
+  ],
+  "runtime": "python3",
+  "entrypoint": "bot.py"
+}
